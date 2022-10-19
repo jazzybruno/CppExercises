@@ -1,0 +1,7 @@
+# ninja log v5
+0	245	1666182469320968333	CMakeFiles/CppExercises.dir/sum.cpp.o	615c4420951d98fe
+0	238	1666183265898366776	CMakeFiles/CppExercises.dir/swap.cpp.o	754dfd7777a277c0
+314	376	1666184505997677190	CppExercises	628a163febccc815
+1	313	1666184505869681380	CMakeFiles/CppExercises.dir/sphere.cpp.o	e011d0c7cf6005d0
+1	314	1666184505897680463	CMakeFiles/CppExercises.dir/calculator.cpp.o	7d337fae8b0edc1b
+0	291	1666175146488506223	CMakeFiles/CppExercises.dir/main.cpp.o	ee2adc5b88e219b8

@@ -1,0 +1,3 @@
+/home/djb/CLionProjects/CppExercises/cmake-build-debug/CMakeFiles/CppExercises.dir
+/home/djb/CLionProjects/CppExercises/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/djb/CLionProjects/CppExercises/cmake-build-debug/CMakeFiles/rebuild_cache.dir
