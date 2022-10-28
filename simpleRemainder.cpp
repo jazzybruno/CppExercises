@@ -31,6 +31,10 @@ string displayDate(){
 
 }
 
+void nameDisplay(string secondName , string firstName ){
+    cout<<"The name in reverse is: " << secondName << " " << firstName <<endl;
+}
+
 int main(){
     cout<<"This will include 2 functions !!!!!" <<endl;
     cout<<""<<endl;
@@ -40,5 +44,17 @@ int main(){
     cin>>num;
     string isState = checker(num);
     cout<<"The number " << num << " you entered is " << isState<<endl;
+
+
+    string firstName , secondName;
+    cout<<"Input your First Name: ";
+    cin>>firstName;
+
+    cout<<"Input your Second Name: ";
+    cin>>secondName;
+
+
+    nameDisplay(secondName , firstName);
+
     displayDate();
 }
