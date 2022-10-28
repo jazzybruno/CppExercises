@@ -2,6 +2,8 @@
 // Created by djb on 10/28/22.
 //
 #include <iostream>
+#include <ctime>
+
 using namespace std;
 
 int quotient(int num1 , int num2){
@@ -22,6 +24,13 @@ int quotient(int num1 , int num2){
     }
 }
 
+string displayDate(){
+    time_t now  = time(0);
+    string timeNow = ctime(&now);
+    cout << "The local date and time is: " << timeNow << endl;
+
+}
+
 int main(){
     cout<<"This will include 2 functions !!!!!" <<endl;
     cout<<""<<endl;
@@ -30,6 +39,6 @@ int main(){
     cout<<"Enter the number you want to test: ";
     cin>>num;
     string isState = checker(num);
-    cout<<"The number " << num << " you entered is " << isState;
-
+    cout<<"The number " << num << " you entered is " << isState<<endl;
+    displayDate();
 }
