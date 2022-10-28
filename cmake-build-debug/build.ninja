@@ -97,6 +97,12 @@ build CMakeFiles/CppExercises.dir/rectangleArea.cpp.o: CXX_COMPILER__CppExercise
   OBJECT_DIR = CMakeFiles/CppExercises.dir
   OBJECT_FILE_DIR = CMakeFiles/CppExercises.dir
 
+build CMakeFiles/CppExercises.dir/tempCoverter.cpp.o: CXX_COMPILER__CppExercises_Debug /home/djb/CLionProjects/CppExercises/tempCoverter.cpp || cmake_object_order_depends_target_CppExercises
+  DEP_FILE = CMakeFiles/CppExercises.dir/tempCoverter.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/CppExercises.dir
+  OBJECT_FILE_DIR = CMakeFiles/CppExercises.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CppExercises
@@ -105,7 +111,7 @@ build CMakeFiles/CppExercises.dir/rectangleArea.cpp.o: CXX_COMPILER__CppExercise
 #############################################
 # Link the executable CppExercises
 
-build CppExercises: CXX_EXECUTABLE_LINKER__CppExercises_Debug CMakeFiles/CppExercises.dir/main.cpp.o CMakeFiles/CppExercises.dir/calculator.cpp.o CMakeFiles/CppExercises.dir/sum.cpp.o CMakeFiles/CppExercises.dir/swap.cpp.o CMakeFiles/CppExercises.dir/sphere.cpp.o CMakeFiles/CppExercises.dir/evenSum.cpp.o CMakeFiles/CppExercises.dir/quadratic.cpp.o CMakeFiles/CppExercises.dir/rectangleArea.cpp.o
+build CppExercises: CXX_EXECUTABLE_LINKER__CppExercises_Debug CMakeFiles/CppExercises.dir/main.cpp.o CMakeFiles/CppExercises.dir/calculator.cpp.o CMakeFiles/CppExercises.dir/sum.cpp.o CMakeFiles/CppExercises.dir/swap.cpp.o CMakeFiles/CppExercises.dir/sphere.cpp.o CMakeFiles/CppExercises.dir/evenSum.cpp.o CMakeFiles/CppExercises.dir/quadratic.cpp.o CMakeFiles/CppExercises.dir/rectangleArea.cpp.o CMakeFiles/CppExercises.dir/tempCoverter.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/CppExercises.dir
   POST_BUILD = :

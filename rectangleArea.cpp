@@ -14,7 +14,7 @@ float perimeter(float length , float width){
     return perimeter;
 }
 
-int main(){
+int rectangleCalcultor(){
     float length , width , area , per;
     cout<<"Enter the length of your rectangle: ";
     cin>>length;

@@ -1,12 +1,17 @@
 # ninja log v5
+0	959	1666724826420471116	CMakeFiles/CppExercises.dir/rectangleArea.cpp.o	baad2e988f252a57
 0	245	1666182469320968333	CMakeFiles/CppExercises.dir/sum.cpp.o	615c4420951d98fe
 1	258	1666266870979543803	CMakeFiles/CppExercises.dir/evenSum.cpp.o	2d3e15164fb59bf0
-1	379	1666724164144022347	CMakeFiles/CppExercises.dir/quadratic.cpp.o	bd85024e6ed52381
+0	1411	1666724826860462954	CMakeFiles/CppExercises.dir/quadratic.cpp.o	bd85024e6ed52381
 1	290	1666265944685245187	CMakeFiles/CppExercises.dir/swap.cpp.o	754dfd7777a277c0
-380	475	1666724164240020591	CppExercises	23f3eaea0ee33314
+1411	1536	1666724827000460357	CppExercises	ccc3a9811ff7e1d8
 0	1211	1666185509064862021	CMakeFiles/CppExercises.dir/sphere.cpp.o	e011d0c7cf6005d0
 1	314	1666184505897680463	CMakeFiles/CppExercises.dir/calculator.cpp.o	7d337fae8b0edc1b
 1	1723	1666723834046601638	CMakeFiles/CppExercises.dir/main.cpp.o	ee2adc5b88e219b8
-0	959	1666724826420471116	CMakeFiles/CppExercises.dir/rectangleArea.cpp.o	baad2e988f252a57
-0	1411	1666724826860462954	CMakeFiles/CppExercises.dir/quadratic.cpp.o	bd85024e6ed52381
-1411	1536	1666724827000460357	CppExercises	ccc3a9811ff7e1d8
+0	1507	1666947819539752677	CMakeFiles/CppExercises.dir/tempCoverter.cpp.o	f39435a273c3a81f
+0	1515	1666947819547752416	CMakeFiles/CppExercises.dir/rectangleArea.cpp.o	baad2e988f252a57
+1515	1887	1666947819915740425	CppExercises	37da32c8abb2813b
+1	272	1666948119198087756	CMakeFiles/CppExercises.dir/tempCoverter.cpp.o	f39435a273c3a81f
+272	324	1666948119250086093	CppExercises	37da32c8abb2813b
+0	241	1666948170524448251	CMakeFiles/CppExercises.dir/tempCoverter.cpp.o	f39435a273c3a81f
+241	294	1666948170576446592	CppExercises	37da32c8abb2813b
