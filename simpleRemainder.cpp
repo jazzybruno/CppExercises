@@ -12,9 +12,24 @@ int quotient(int num1 , int num2){
     cout<<"The remainder between " << num1 << " and " << num2 << " is " << remainder <<endl;
 }
 
+ string checker(float  number){
+    if(number == 0){
+        return "Zero";
+    }else if(number > 0){
+        return  "Positive";
+    }else{
+        return "Negative";
+    }
+}
+
 int main(){
     cout<<"This will include 2 functions !!!!!" <<endl;
     cout<<""<<endl;
     quotient(1 , 2);
+    float  num;
+    cout<<"Enter the number you want to test: ";
+    cin>>num;
+    string isState = checker(num);
+    cout<<"The number " << num << " you entered is " << isState;
 
 }
