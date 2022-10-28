@@ -35,7 +35,7 @@ void nameDisplay(string secondName , string firstName ){
     cout<<"The name in reverse is: " << secondName << " " << firstName <<endl;
 }
 
-int main(){
+int manyFunctions(){
     cout<<"This will include 2 functions !!!!!" <<endl;
     cout<<""<<endl;
     quotient(1 , 2);

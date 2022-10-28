@@ -3,4 +3,4 @@ project(CppExercises)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(CppExercises main.cpp calculator.cpp sum.cpp swap.cpp sphere.cpp evenSum.cpp quadratic.cpp rectangleArea.cpp tempCoverter.cpp simpleRemainder.cpp)
+add_executable(CppExercises main.cpp calculator.cpp sum.cpp swap.cpp sphere.cpp evenSum.cpp quadratic.cpp rectangleArea.cpp tempCoverter.cpp simpleRemainder.cpp circleArea.cpp)
