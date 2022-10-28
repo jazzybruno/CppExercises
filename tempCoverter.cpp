@@ -10,7 +10,7 @@ float celsiusFahrenheit(float celsius){
     return  Fahrenheit;
 }
 
-int main(){
+int tempConverter(){
     cout<<"This is a program to convert celsius to Fahrenheit!!!" <<endl;
     float celsius;
     cout<<"Enter the temperature in celsius: ";
