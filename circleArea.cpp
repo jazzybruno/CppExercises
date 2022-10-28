@@ -26,18 +26,29 @@ max = a;
 if(max < b){
     max = b;
     if(max < c){
-
+      smallest = a;
+      middle = b ;
+      largest =  c;
     }else{
-
+        smallest = a;
+        middle = c;
+        largest = b;
     }
 }else{
-    cout<<"Number " << b << " is the smallest";
     if(max < c){
-
+        smallest = b;
+        middle = a;
+        largest = c;
     }else{
-
+        smallest = b;
+        middle = c;
+        largest = a;
     }
 }
+
+cout<<"The Smallest is: " << smallest <<endl;
+cout<<"The Middle is: " << middle <<endl;
+cout<<"The Largest is: " << largest <<endl;
 }
 
 int main(){
@@ -51,5 +62,6 @@ int main(){
     cout<<"Enter the side of the cube: ";
     cin>>side;
     cubeVolume(side);
+    ascending(45 , 32 , 75);
 
 }
