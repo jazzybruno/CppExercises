@@ -7,28 +7,56 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-string wordReverser(string word){
+void wordReverser(string word){
     int length = word.length();
             char wordArray[length + 1];
             strcpy(wordArray , word.c_str());
     for (int i = 0; i < length; ++i) {
-        int num = length - i;
-        if(num - i == 0){
-            break;
+        int real = length - 1;
+        int num = real - i;
+        if(length % 2 == 0){
+            if(num - i == -1){
+                break;
+            }else {
+                char temp;
+                temp = wordArray[i];
+                wordArray[i] = wordArray[num];
+                wordArray[num] = temp;
+            }
         }else{
-            char temp;
-            temp = wordArray[i];
-            wordArray[i] =  wordArray[length  - i];
-            wordArray[length - i] = temp;
+            if(num - i == 0){
+                break;
+            }else {
+                char temp;
+                temp = wordArray[i];
+                wordArray[i] = wordArray[num];
+                wordArray[num] = temp;
+            }
         }
-        cout<<"The reversed character is now: " << wordArray[i];
+
     }
+
+    string reversed = "";
+    for (int i = 0; i < length; ++i) {
+        reversed = reversed + wordArray[i];
+    }
+
+    cout<<reversed <<endl;
+
+    if(reversed == word){
+        cout<<"The given word is a plindrome!!";
+    }else{
+        cout<<"The given word is not a palindrome";
+    }
+
+
 }
 
 int main(){
+
     string word;
     cout<<"Welcome to the palindrome checker program!!! \n";
-    cout<<"Enter the word tou want to check: ";
+    cout<<"Enter the word you want to check: ";
     cin>>word;
 
     //converting the word to an array;
