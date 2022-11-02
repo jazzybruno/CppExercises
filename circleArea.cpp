@@ -51,7 +51,7 @@ cout<<"The Middle is: " << middle <<endl;
 cout<<"The Largest is: " << largest <<endl;
 }
 
-int main(){
+int raduisIncrease(){
     float  radius , side ;
     cout<<"The program to caculate the area and circmufrence of a circle: \n";
     cout<<"Enter the radius of a circle: ";
