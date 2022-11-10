@@ -52,7 +52,7 @@ void wordReverser(string word){
 
 }
 
-int main(){
+int palindome(){
 
     string word;
     cout<<"Welcome to the palindrome checker program!!! \n";
